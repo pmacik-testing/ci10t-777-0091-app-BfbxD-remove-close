@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-tiya
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/ci10t-777-0091-tenant/ci10t-777-0091-app/devfile-sample-tiya@sha256:b5abb0f1008c4e740c9e74b30c90c8b6dfa2147b5bfcbdcc3fa1710cd719d314
         name: my-nodejs
         ports:
         - containerPort: 3001
